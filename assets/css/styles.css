@@ -1,0 +1,77 @@
+
+body {
+    background-color: #efe6dd;
+    color: #231f20;
+}
+
+main {
+    background-image: linear-gradient(#6457a6, #7ebdc2);
+    color: #6457a6;
+    border: solid #6457a6;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem 1rem #7ebdc2;
+}
+
+.card {
+    background-color: #efe6dd;
+}
+
+.input {
+    color: #6457a6;
+    &:focus {
+        border: solid #6457a6;
+        box-shadow: 0 0 0.5rem #6457a6;
+    }
+    &::placeholder {
+        color: #6457a6;
+    }
+}
+
+.btn {
+    border: solid #6457a6;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem #6457a6;
+    color: #6457a6;
+    background-color: #efe6dd;
+    &:hover {
+        background-color: #6457a6;
+        color: #efe6dd;
+    }
+}
+
+
+/* Dark Mode */
+
+body.dark-mode {
+    background-color: #231f20;
+    color: #efe6dd;
+}
+
+.dark-mode main {
+    background-image: linear-gradient(#7ebdc2, #6457a6);
+    color: #7ebdc2;
+    border: solid #7ebdc2;
+    border-radius: 1rem;
+    box-shadow: 0 0 3rem 2rem #6457a6;
+}
+
+.dark-mode .card {
+    background-color: #231f20;
+}
+
+.dark-mode .input {
+    border: solid #7ebdc2;
+    
+}
+
+.dark-mode .btn {
+    border: solid #7ebdc2;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem #7ebdc2;
+    color: #7ebdc2;
+    background-color: #231f20;
+    &:hover {
+        background-color: #7ebdc2;
+        color: #231f20;
+    }
+}

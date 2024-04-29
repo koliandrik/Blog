@@ -1,17 +1,31 @@
-const user = document.getElementById('username');
-const title = document.getElementById('title');
-const content = document.getElementById('content');
-const modeButton = document.getElementById('mode');
-const saveButton = document.getElementById('save');
+const body = document.body;
+const header = document.createElement('header');
+const main = document.createElement('main');
+const div = document.createElement('div');
+const footer = document.createElement('footer');
+const modeBtn = document.createElement('button');
+const backBtn = document.createElement('button');
 
-saveButton.addEventListener('click', function(event) {
-    event.preventDefault();
+modeBtn.className = 'btn';
+modeBtn.id = 'mode';
 
-    const post = {
-        user: user.value,
-        title: title.value,
-        content: content.value.trim(),
-    };
+backBtn.className = 'btn';
+backBtn.id = 'back';
 
-    localStorage.setItem('post',JSON.stringify(post));
-})
+div.className = 'container';
+
+body.appendChild(header);
+body.appendChild(main);
+body.appendChild(footer);
+main.appendChild(div);
+
+header.appendChild(modeBtn);
+
+modeBtn.textContent = 'Dark Mode';
+
+header.appendChild(backBtn);
+
+backBtn.textContent = 'Back';
+backBtn.addEventListener('click', () => {
+    history.back();
+});
