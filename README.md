@@ -34,3 +34,14 @@ THEN I can see the title, the content, and the author of the post.
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 ```
+
+## Screenshots
+
+![Screenshot of deployed wepage](<assets/images/127.0.0.1_5500_Challenges_Week-4_Blog_index.html.png>)
+
+![Screenshot of deployed wepage](<assets/images/127.0.0.1_5500_Challenges_Week-4_Blog_blog.html.png>)
+
+
+## Link
+
+https://koliandrik.github.io/Blog/
