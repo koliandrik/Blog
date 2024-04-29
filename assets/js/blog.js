@@ -6,6 +6,9 @@ const footer = document.createElement('footer');
 const modeBtn = document.createElement('button');
 const backBtn = document.createElement('button');
 const portfolio = document.createElement('button');
+const headerTitle = document.createElement('h1');
+
+headerTitle.textContent = 'My First Blog';
 
 modeBtn.className = 'btn';
 modeBtn.id = 'mode';
@@ -29,6 +32,8 @@ main.appendChild(posts);
 header.appendChild(modeBtn);
 
 modeBtn.textContent = 'Dark Mode';
+
+header.appendChild(headerTitle);
 
 header.appendChild(backBtn);
 
