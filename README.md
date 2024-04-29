@@ -37,9 +37,9 @@ THEN I am presented with a link to the developer's portfolio.
 
 ## Screenshots
 
-![Screenshot of deployed wepage](<assets/images/127.0.0.1_5500_Challenges_Week-4_Blog_index.html.png>)
+![Screenshot of deployed wepage](<assets/Images/127.0.0.1_5500_Challenges_Week-4_Blog_index.html.png>)
 
-![Screenshot of deployed wepage](<assets/images/127.0.0.1_5500_Challenges_Week-4_Blog_blog.html.png>)
+![Screenshot of deployed wepage](<assets/Images/127.0.0.1_5500_Challenges_Week-4_Blog_blog.html.png>)
 
 
 ## Link
