@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+
+.card{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: end;
+}
+
+h3 {
+    text-align: center;
+}
+
+header {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
