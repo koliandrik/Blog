@@ -2,6 +2,12 @@ html, body {
     height: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .card{
     margin: 2rem;
     padding: 1rem;
@@ -28,10 +34,6 @@ header {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     text-align: center;
     padding: 2rem;
 }
